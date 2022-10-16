@@ -1,0 +1,8 @@
+uvicorn main:app --reload
+
+
+# Deploy
+terraform init
+terraform apply
+
+NB: set aws access_key and secret_key in devops/variables.tf
